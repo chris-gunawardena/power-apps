@@ -1,0 +1,18 @@
+App As appinfo:
+    BackEnabled: =true
+    Formulas: |+
+        =setStatus(cardControlled:Text, nexiControl:Text, amountToCharge:Number):Text = 
+            If(nexiControl = "Yes" && cardControlled = "Yes" && amountToCharge <> 0, "Done", 
+                If(nexiControl = "Yes" && cardControlled = "Yes", "Wait", "Todo")
+            )
+        ;
+        
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+
