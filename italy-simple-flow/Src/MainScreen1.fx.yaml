@@ -472,7 +472,7 @@
                         Item: =RecordsGallery1.Selected
                         LayoutMinHeight: =250
                         LayoutMinWidth: =300
-                        NumberOfColumns: =2
+                        NumberOfColumns: =1
                         OnFailure: =Notify("Cannot save. Please check if there are errors in the form.", NotificationType.Error)
                         OnSuccess: |-
                             =UpdateContext({ CurrentItem: Self.LastSubmit, editMode: false, newMode: false })
@@ -489,9 +489,9 @@
                             Height: =50
                             Required: =false
                             Update: =DataCardValue7.Selected
-                            Width: =458
+                            Width: =916
                             X: =0
-                            Y: =2
+                            Y: =4
                             ZIndex: =1
 
                             DataCardKey7 As label:
@@ -608,7 +608,7 @@
                             MaxLength: =DataSourceInfo([@'Simple Case'], DataSourceInfo.MaxLength, Title)
                             Required: =false
                             Update: =DataCardValue1.Text
-                            Width: =458
+                            Width: =916
                             X: =0
                             Y: =0
                             ZIndex: =25
@@ -722,9 +722,9 @@
                             Height: =50
                             Required: =false
                             Update: =DataCardValue2.Selected
-                            Width: =458
-                            X: =1
-                            Y: =0
+                            Width: =916
+                            X: =0
+                            Y: =1
                             ZIndex: =25
 
                             DataCardKey2 As label:
@@ -841,9 +841,9 @@
                             Height: =50
                             Required: =false
                             Update: =DataCardValue3.Selected
-                            Width: =458
+                            Width: =916
                             X: =0
-                            Y: =1
+                            Y: =2
                             ZIndex: =25
 
                             DataCardKey3 As label:
@@ -961,9 +961,9 @@
                             Height: =50
                             Required: =false
                             Update: =Value(DataCardValue4.Text)
-                            Width: =458
-                            X: =1
-                            Y: =1
+                            Width: =916
+                            X: =0
+                            Y: =3
                             ZIndex: =25
 
                             DataCardKey4 As label:
