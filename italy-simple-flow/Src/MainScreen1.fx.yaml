@@ -769,6 +769,7 @@
                                 HoverColor: =RGBA(50, 49, 48, 1)
                                 HoverFill: =RGBA(245, 245, 245, 1)
                                 Items: =Choices([@'Simple Case'].field_1)
+                                OnSelect: =CurrentItem.Status​.Value = "Done"//setStatus(CurrentItem.'Card Controlled?​'.Value, CurrentItem.'Nexi Control OK?​'.Value, CurrentItem.'Amount to charge​')
                                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                                 PressedBorderColor: =RGBA(16, 110, 190, 1)
                                 PressedColor: =RGBA(255, 255, 255, 1)
