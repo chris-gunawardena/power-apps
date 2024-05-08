@@ -154,7 +154,7 @@
                         PaddingRight: =0
                         PaddingTop: =0
                         Size: =12
-                        Text: =getStatus(CurrentItem.'Card Controlled?​'.Value, CurrentItem.'Nexi Control OK?​'.Value, CurrentItem.'Amount to charge​')
+                        Text: =getStatus(ThisItem.'Card Controlled?​'.Value, ThisItem.'Nexi Control OK?​'.Value, ThisItem.'Amount to charge​')
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Title2.Width
                         X: =Title2.X
