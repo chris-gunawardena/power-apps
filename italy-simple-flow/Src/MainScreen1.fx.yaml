@@ -1012,10 +1012,10 @@
                                 Height: =45
                                 HoverColor: =RGBA(50, 49, 48, 1)
                                 HoverFill: =RGBA(0, 0, 0, 0)
-                                Items: =Choices([@'Simple Case'].field_1)
+                                Items: =Choices([@'Simple Case'].field_2)
                                 Layout: =Layout.Horizontal
                                 OnChange: |-
-                                    =Patch('Simple Case', ThisItem, {field_1: Radio1_1.Selected})
+                                    =Patch('Simple Case', ThisItem, {field_2: Radio1_1.Selected})
                                 PaddingBottom: =5
                                 PaddingTop: =5
                                 PressedColor: =RGBA(50, 49, 48, 1)
