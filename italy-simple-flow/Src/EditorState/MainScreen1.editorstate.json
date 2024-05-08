@@ -2450,7 +2450,7 @@
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5281,7 +5281,7 @@
       "MetaDataIDKey": "%DeleteIconButton.ID%",
       "Name": "DeleteIconButton1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5842,7 +5842,7 @@
       "MetaDataIDKey": "%EditIconButton.ID%",
       "Name": "EditIconButton1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9622,7 +9622,7 @@
       "MetaDataIDKey": "",
       "Name": "Radio1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10415,7 +10415,7 @@
       "MetaDataIDKey": "%ResetFormButton.ID%",
       "Name": "ResetFormButton1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12464,7 +12464,7 @@
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -13471,7 +13471,7 @@
       "MetaDataIDKey": "%SubmitFormButton.ID%",
       "Name": "SubmitFormButton1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
