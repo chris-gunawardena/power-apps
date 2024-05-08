@@ -735,7 +735,7 @@
                             DisplayMode: =Parent.DisplayMode
                             DisplayName: =DataSourceInfo([@'Simple Case'],DataSourceInfo.DisplayName,field_1)
                             Fill: =RGBA(0, 0, 0, 0)
-                            Height: =50
+                            Height: =129
                             Required: =false
                             Update: =DataCardValue2.Selected
                             Width: =916
@@ -781,11 +781,11 @@
                                 DisplayMode: =Parent.DisplayMode
                                 Fill: =RGBA(245, 245, 245, 1)
                                 Font: =Font.'Segoe UI'
+                                Height: =45
                                 HoverBorderColor: =RGBA(16, 110, 190, 1)
                                 HoverColor: =RGBA(50, 49, 48, 1)
                                 HoverFill: =RGBA(245, 245, 245, 1)
                                 Items: =Choices([@'Simple Case'].field_1)
-                                OnSelect: =CurrentItem.Status​.Value = "Done"//setStatus(CurrentItem.'Card Controlled?​'.Value, CurrentItem.'Nexi Control OK?​'.Value, CurrentItem.'Amount to charge​')
                                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                                 PressedBorderColor: =RGBA(16, 110, 190, 1)
                                 PressedColor: =RGBA(255, 255, 255, 1)
@@ -796,9 +796,9 @@
                                 SelectMultiple: =false
                                 Size: =13
                                 Tooltip: =Parent.DisplayName
-                                Width: =Parent.Width - 60
-                                X: =30
-                                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                                Width: =551
+                                X: =335
+                                Y: =43
                                 ZIndex: =2
 
                             ErrorMessage2 As label:
@@ -846,6 +846,32 @@
                                 Wrap: =false
                                 Y: =DataCardKey2.Y
                                 ZIndex: =4
+
+                            Radio1 As radio:
+                                BorderColor: =RGBA(50, 49, 48, 1)
+                                BorderStyle: =BorderStyle.None
+                                BorderThickness: =2
+                                Color: =RGBA(50, 49, 48, 1)
+                                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                DisabledColor: =RGBA(161, 159, 157, 1)
+                                FocusedBorderThickness: =4
+                                Font: =Font.'Segoe UI'
+                                Height: =45
+                                HoverColor: =RGBA(50, 49, 48, 1)
+                                HoverFill: =RGBA(0, 0, 0, 0)
+                                Items: =Choices([@'Simple Case'].field_1)
+                                Layout: =Layout.Horizontal
+                                PaddingBottom: =5
+                                PaddingTop: =5
+                                PressedColor: =RGBA(50, 49, 48, 1)
+                                PressedFill: =RGBA(0, 0, 0, 0)
+                                RadioBorderColor: =RGBA(50, 49, 48, 1)
+                                RadioSelectionFill: =RGBA(0, 120, 212, 1)
+                                Size: =13
+                                Width: =390
+                                X: =30
+                                Y: =43
+                                ZIndex: =5
 
                         "'Card Controlled?​_DataCard1' As typedDataCard.comboBoxEditCard":
                             BorderColor: =RGBA(245, 245, 245, 1)
