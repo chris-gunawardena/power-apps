@@ -855,6 +855,7 @@
                                 Default: =ThisItem.'Nexi Control OK?​'.Value
                                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                                 DisabledColor: =RGBA(161, 159, 157, 1)
+                                DisplayMode: =Parent.DisplayMode
                                 FocusedBorderThickness: =4
                                 Font: =Font.'Segoe UI'
                                 Height: =45
