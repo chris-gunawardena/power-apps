@@ -861,6 +861,8 @@
                                 HoverFill: =RGBA(0, 0, 0, 0)
                                 Items: =Choices([@'Simple Case'].field_1)
                                 Layout: =Layout.Horizontal
+                                OnChange: |-
+                                    =Patch('Simple Case', ThisItem, {field_1: Radio1.Selected})
                                 PaddingBottom: =5
                                 PaddingTop: =5
                                 PressedColor: =RGBA(50, 49, 48, 1)
