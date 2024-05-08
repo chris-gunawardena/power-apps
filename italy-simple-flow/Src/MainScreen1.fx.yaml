@@ -607,8 +607,8 @@
                                 Font: =Font.'Segoe UI'
                                 Size: =13
                                 Text: =getStatus(CurrentItem.'Card Controlled?​'.Value, CurrentItem.'Nexi Control OK?​'.Value, CurrentItem.'Amount to charge​')
-                                X: =40
-                                Y: =40
+                                X: =158
+                                Y: =8
                                 ZIndex: =5
 
                         Task​_DataCard1 As typedDataCard.textualEditCard:
