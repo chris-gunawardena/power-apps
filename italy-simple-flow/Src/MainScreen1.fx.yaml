@@ -111,7 +111,7 @@
                     Default: =CurrentItem
                     DelayItemLoading: =true
                     Fill: =RGBA(250, 250, 250, 1)
-                    Items: =If(Dropdown3.SelectedText.Value = "All", [@'Simple Case'], Filter([@'Simple Case'], Dropdown3.SelectedText.Value = ThisRecord.Status​.Value))
+                    Items: =If(Dropdown3.SelectedText.Value = "All", [@'Simple Case'], Filter([@'Simple Case'], Dropdown3.SelectedText.Value = getStatus(ThisRecord.'Card Controlled?​'.Value, ThisRecord.'Nexi Control OK?​'.Value, ThisRecord.'Amount to charge​')))
                     Layout: =Layout.Vertical
                     LayoutMinHeight: =287
                     LayoutMinWidth: =320
@@ -154,7 +154,7 @@
                         PaddingRight: =0
                         PaddingTop: =0
                         Size: =12
-                        Text: =ThisItem.Status​.Value
+                        Text: =getStatus(CurrentItem.'Card Controlled?​'.Value, CurrentItem.'Nexi Control OK?​'.Value, CurrentItem.'Amount to charge​')
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Title2.Width
                         X: =Title2.X
@@ -545,8 +545,9 @@
                                 SelectionFill: =RGBA(0, 120, 212, 1)
                                 SelectMultiple: =false
                                 Size: =13
-                                Width: =Parent.Width - 60
-                                X: =30
+                                Visible: =false
+                                Width: =728
+                                X: =158
                                 Y: =DataCardKey7.Y + DataCardKey7.Height + 5
                                 ZIndex: =2
 
@@ -607,8 +608,8 @@
                                 Font: =Font.'Segoe UI'
                                 Size: =13
                                 Text: =getStatus(CurrentItem.'Card Controlled?​'.Value, CurrentItem.'Nexi Control OK?​'.Value, CurrentItem.'Amount to charge​')
-                                X: =158
-                                Y: =8
+                                X: =30
+                                Y: =48
                                 ZIndex: =5
 
                         Task​_DataCard1 As typedDataCard.textualEditCard:
