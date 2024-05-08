@@ -1,7 +1,7 @@
 App As appinfo:
     BackEnabled: =true
     Formulas: |+
-        =setStatus(cardControlled:Text, nexiControl:Text, amountToCharge:Number):Text = 
+        =getStatus(cardControlled:Text, nexiControl:Text, amountToCharge:Number):Text = 
             If(nexiControl = "Yes" && cardControlled = "Yes" && amountToCharge <> 0, "Done", 
                 If(nexiControl = "Yes" && cardControlled = "Yes", "Wait", "Todo")
             )
