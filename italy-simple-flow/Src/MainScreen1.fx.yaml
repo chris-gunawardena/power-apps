@@ -796,6 +796,7 @@
                                 SelectMultiple: =false
                                 Size: =13
                                 Tooltip: =Parent.DisplayName
+                                Visible: =false
                                 Width: =551
                                 X: =335
                                 Y: =43
@@ -946,9 +947,9 @@
                                 SelectMultiple: =false
                                 Size: =13
                                 Tooltip: =Parent.DisplayName
-                                Width: =Parent.Width - 60
-                                X: =30
-                                Y: =DataCardKey3.Y + DataCardKey3.Height + 5
+                                Width: =592
+                                X: =323
+                                Y: =43
                                 ZIndex: =2
 
                             ErrorMessage3 As label:
@@ -996,6 +997,36 @@
                                 Wrap: =false
                                 Y: =DataCardKey3.Y
                                 ZIndex: =4
+
+                            Radio1_1 As radio:
+                                BorderColor: =RGBA(50, 49, 48, 1)
+                                BorderStyle: =BorderStyle.None
+                                BorderThickness: =2
+                                Color: =RGBA(50, 49, 48, 1)
+                                Default: =ThisItem.'Nexi Control OK?​'.Value
+                                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                DisabledColor: =RGBA(161, 159, 157, 1)
+                                DisplayMode: =Parent.DisplayMode
+                                FocusedBorderThickness: =4
+                                Font: =Font.'Segoe UI'
+                                Height: =45
+                                HoverColor: =RGBA(50, 49, 48, 1)
+                                HoverFill: =RGBA(0, 0, 0, 0)
+                                Items: =Choices([@'Simple Case'].field_1)
+                                Layout: =Layout.Horizontal
+                                OnChange: |-
+                                    =Patch('Simple Case', ThisItem, {field_1: Radio1_1.Selected})
+                                PaddingBottom: =5
+                                PaddingTop: =5
+                                PressedColor: =RGBA(50, 49, 48, 1)
+                                PressedFill: =RGBA(0, 0, 0, 0)
+                                RadioBorderColor: =RGBA(50, 49, 48, 1)
+                                RadioSelectionFill: =RGBA(0, 120, 212, 1)
+                                Size: =13
+                                Width: =390
+                                X: =40
+                                Y: =38
+                                ZIndex: =5
 
                         "'Amount to charge​_DataCard1' As typedDataCard.numberEditCard":
                             BorderColor: =RGBA(245, 245, 245, 1)
