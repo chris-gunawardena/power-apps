@@ -117,7 +117,7 @@
                     LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     OnSelect: |
-                        =UpdateContext({ itemSelected: true, CurrentItem: ThisItem, editMode: true, selectedRecord: RecordsGallery1.Selected }); //, editMode: true, selectedRecord: RecordsGallery1.Selected
+                        =UpdateContext({ itemSelected: true, CurrentItem: ThisItem }); //, editMode: true, selectedRecord: RecordsGallery1.Selected
                     TemplateFill: =If(Self.IsSelected, RGBA(230, 230, 230, 1), RGBA(0, 0, 0, 0))
                     TemplatePadding: =0
                     TemplateSize: =90
