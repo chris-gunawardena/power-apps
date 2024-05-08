@@ -117,7 +117,7 @@
                     LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     OnSelect: |
-                        =UpdateContext({ itemSelected: true, CurrentItem: ThisItem }); //, editMode: true, selectedRecord: RecordsGallery1.Selected
+                        =UpdateContext({ itemSelected: true, CurrentItem: ThisItem, editMode: true, selectedRecord: RecordsGallery1.Selected }); //, editMode: true, selectedRecord: RecordsGallery1.Selected
                     TemplateFill: =If(Self.IsSelected, RGBA(230, 230, 230, 1), RGBA(0, 0, 0, 0))
                     TemplatePadding: =0
                     TemplateSize: =90
@@ -856,7 +856,6 @@
                                 Default: =ThisItem.'Nexi Control OK?​'.Value
                                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                                 DisabledColor: =RGBA(161, 159, 157, 1)
-                                DisplayMode: =Parent.DisplayMode
                                 FocusedBorderThickness: =4
                                 Font: =Font.'Segoe UI'
                                 Height: =45
@@ -873,7 +872,7 @@
                                 RadioBorderColor: =RGBA(50, 49, 48, 1)
                                 RadioSelectionFill: =RGBA(0, 120, 212, 1)
                                 Size: =13
-                                Width: =390
+                                Width: =207
                                 X: =30
                                 Y: =43
                                 ZIndex: =5
@@ -947,6 +946,7 @@
                                 SelectMultiple: =false
                                 Size: =13
                                 Tooltip: =Parent.DisplayName
+                                Visible: =false
                                 Width: =592
                                 X: =323
                                 Y: =43
@@ -1023,7 +1023,7 @@
                                 RadioBorderColor: =RGBA(50, 49, 48, 1)
                                 RadioSelectionFill: =RGBA(0, 120, 212, 1)
                                 Size: =13
-                                Width: =390
+                                Width: =203
                                 X: =40
                                 Y: =38
                                 ZIndex: =5
