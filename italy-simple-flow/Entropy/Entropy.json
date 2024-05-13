@@ -22,9 +22,9 @@
     "DataCardValue4": 57,
     "DataCardValue7": 63,
     "DeleteConfirmDialogContainer1": 9,
-    "DeleteIconButton1": 32,
+    "DeleteIconButton1": 34,
     "Dropdown3": 15,
-    "EditIconButton1": 31,
+    "EditIconButton1": 33,
     "ErrorMessage1": 41,
     "ErrorMessage2": 47,
     "ErrorMessage3": 53,
@@ -46,7 +46,7 @@
     "RecordsGallery1": 16,
     "RecordsListSeparator1": 26,
     "Rectangle2": 18,
-    "ResetFormButton1": 34,
+    "ResetFormButton1": 32,
     "RightContainer1": 27,
     "ScreenContainer1": 5,
     "SelectedRecordHeaderContainer1": 28,
@@ -59,7 +59,7 @@
     "StarVisible4": 55,
     "StarVisible7": 60,
     "Status​_DataCard1": 59,
-    "SubmitFormButton1": 33,
+    "SubmitFormButton1": 31,
     "Subtitle2": 21,
     "TableNameContainer1": 6,
     "TableNameLabel1": 7,
@@ -68,7 +68,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "05/08/2024 10:33:42",
+  "HeaderLastSavedDateTimeUTC": "05/13/2024 08:58:13",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "4dd09ec1-4bc2-44ca-9860-b5445731e6f8": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6c117302af9b4dc1938f49a9d90de126\""
@@ -237,7 +237,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.6694492,
+    "AnalysisLoadTime": 0.6326874,
     "ControlCount": {
       "button": 2,
       "combobox": 3,
@@ -254,7 +254,7 @@
       "text": 2,
       "typedDataCard": 5
     },
-    "DeserializationLoadTime": 1.1348959
+    "DeserializationLoadTime": 1.4300382
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
